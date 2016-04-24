@@ -1,9 +1,8 @@
 <template>
   <div>
     <h1>HOME</h1>
-    <li>
-      <h2>{{ msg }}</h2>
-    </li>
+    <h2>{{ msg }}</h2>
+    <button class="btn btn-primary btn-lg"  v-link="'/std_info'">Next to StudentInfo</button>
   </div>
 </div>
 </template>
@@ -12,7 +11,7 @@
 export default {
   data() {
     return {
-      msg:"this is home page"
+      msg:"home page \n add some thing"
     }
   },
   methods: {

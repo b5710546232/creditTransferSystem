@@ -2,8 +2,11 @@
   <div>
     <h1>About Us</h1>
       <h2>{{ msg }}</h2>
-      <h3>make by </h3>
-      <li><h3>Safe Tem Tor Mikko</h3></li>
+      <h3>DB project make by </h3>
+      <li>safe</li>
+      <li>tem</li>
+      <li>tor</li>
+      <li>mikko</li>
   </div>
 </div>
 </template>

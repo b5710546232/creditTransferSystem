@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "database project",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build":"webpack --progress --colors --watch"
+  },
   "dependencies": {
-      "bootstrap": "^3.3.6",
-      "vue": "^1.0.21",
-      "vue-resource": "^0.1.17",
-      "vue-router": "^0.7.5"
+    "bootstrap": "^3.3.6",
+    "vue": "^1.0.21",
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.5"
   },
   "devDependencies": {
     "babel-core": "^6.1.2",
@@ -20,10 +27,8 @@
     "vue-hot-reload-api": "^1.2.1",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^7.0.1",
-    "webpack": "^1.12.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.14.1"
   },
   "author": "safe,tor,tem,mikko",
   "license": "ISC"

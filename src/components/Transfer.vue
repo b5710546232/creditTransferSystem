@@ -1,11 +1,23 @@
 <template>
   <div>
     <h1>Transfer</h1>
-    <li>
-      <h2>{{ msg }}</h2>
-    </li>
+
+    <div>
+      <div class="input-group ">
+        <span class="input-group-addon" >From  Faculty</span>
+        <select class="form-control">
+          <option>1</option>
+        </select>
+      </div>
+    </div>
+
+    <nav>
+      <ul class="pager">
+        <li><a v-link="'/std_info'">Previous</a></li>
+        <li><a v-link="'/home'">Next</a></li>
+      </ul>
+    </nav>
   </div>
-</div>
 </template>
 
 <script>
