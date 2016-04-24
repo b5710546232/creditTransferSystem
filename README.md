@@ -1,4 +1,9 @@
-### How to use
+# Credit Transfer System
+
+## How to  Setup
 * npm install
+  * install all dependencies.
+* npm run dev
+  * enter url : localhost:8080
 * npm run build
-* localhost:8080
+  * build for production.
