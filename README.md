@@ -1,3 +1,3 @@
 ### How to use
 * npm install
-* webpack
+* npm run build
